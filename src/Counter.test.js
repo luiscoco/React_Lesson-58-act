@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOMClient from 'react-dom/client';
-import { act } from 'react-dom/test-utils';
+import { act } from 'react';
 import { Counter } from './Counter';
 
 let container;
@@ -13,7 +13,9 @@ beforeEach(() => {
 });
 
 afterEach(() => {
-  root.unmount();
+  act(() => {
+    root.unmount();
+  });
   document.body.removeChild(container);
   container = null;
   root = null;
