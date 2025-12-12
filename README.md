@@ -2,6 +2,10 @@
 
 This is a minimal Jest + React Testing Library playground for experimenting with React's `act` helper.
 
+## Preview
+
+<img width="1225" height="439" alt="image" src="https://github.com/user-attachments/assets/8f43ece9-74b3-474a-b567-ac65d5953d94" />
+
 ## App features (with code)
 
 - `Counter` — synchronous state update with a button click.
