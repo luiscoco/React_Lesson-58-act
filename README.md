@@ -127,3 +127,6 @@ The tests demonstrate:
 - Using `await act(async () => ...)` for async updates.
 - Dispatching DOM events inside `act`.
 - Configuring `global.IS_REACT_ACT_ENVIRONMENT = true` in `setupTests.js`.
+
+<img width="888" height="494" alt="image" src="https://github.com/user-attachments/assets/bff812c8-5610-4364-b122-c77d92d0da38" />
+
